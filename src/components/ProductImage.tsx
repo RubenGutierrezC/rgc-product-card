@@ -16,6 +16,8 @@ export const ProductImage = ({
 }: ProductImageProps) => {
   const { product } = useContext(ProductContext);
 
+  console.log('change');
+
   let imgToShow: string;
 
   if (image) {
